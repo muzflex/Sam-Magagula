@@ -1,0 +1,40 @@
+body {
+    background-image: url(bg.jpg), 0.3, 0.2;
+    image-resolution: 0.3;
+    background-size: cover;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+header {
+  image-rendering: url(bg.jpg);
+  image-resolution: 0.2;
+  background-position: left;
+  background-position: right;
+}
+h1 {
+    border: cornflowerblue;
+    border-left: 5px; 
+    color: blue;
+}
+
+h2 {
+  padding: 10px;
+ 
+  
+}
+
+footer {
+  /* position: fixed; */
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  /* background-color: red; */
+  color: black;
+  text-align: center;
+}
+
+form {
+  border: black;
+
+}

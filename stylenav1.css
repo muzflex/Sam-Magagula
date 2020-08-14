@@ -1,0 +1,51 @@
+.navbar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: 17px;
+  width: 14%;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+  background-color: #000;
+  /* color: black; */
+}
+
+/* Add a color to the active/current link */
+.navbar a.active {
+  background-color: #4CAF50;
+  /* color: white; */
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float:  none;
+    display:  block;
+    width:  100%;
+    text-align: left;
+  }
+}
+
+.navbar-centered a {
+  position: relative;
+  top: 0;
+  left: 0;
+  transform: none;
+}
+
+/* Right-aligned section inside the top navigation */
+/* .topnav-right {
+  float: right; */
+
+
+

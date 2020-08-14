@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Register</title>
+        <link rel='stylesheet' type='text/css' href='stylenav1.css'>
+        <link rel='stylesheet' type='text/css' href='style.css'>  
+    </head>
+
+    <body>
+
+        <header>
+            <div class="navbar">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="contact.html">Contact</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="login.html">Login</a>
+                <a class="active" href="register.html">Register</a>
+            </div>
+        </header> 
+
+        <section>
+            <h2>Registration Form</h2>
+        </section>
+          
+        <header>
+            <hr><h1><center>Welcome to Galaxer</center></h1><hr>
+        </header> 
+    
+        <form>
+            <div class="container">
+                <p><b>Please fill in this form to create an account.</b></p>
+                <hr>
+      
+                <label for="email"><b>Email: </b></label>
+                <input type="text" placeholder="Enter Email" name="email" id="email" required>
+      
+                <label for="psw"><b>Password: </b></label>
+                <input type="password" placeholder="Enter Password" min='5' name="psw" id="psw" required>
+      
+                <label for="psw-repeat"><b>Repeat Password: </b></label>
+                <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+                <hr>
+        <!-------------------------------------------------------------------------------------------------------->
+                <label for="firstname"><b>First Name: </b></label>
+                <input type="text" placeholder="First Name" name="firstname" id="firstname">    
+
+                <label for="lastname"><b>Last Name: </b></label>
+                <input type="text" placeholder="Last Name" name="lastname" id="lastname">
+                <hr>
+
+                <label for="birthday"><b>Birthday: </b></label>
+                <input type="date" placeholder="Birthday" name="birthday" id="birthday">
+
+                <label for="gender"><b>Gender: </b></label>
+                <input type="radio" placeholder="Gender" name="gender" id="Male">Male
+                <input type="radio" placeholder="Gender" name="gender" id="Female">Female
+                <input type="radio" placeholder="Gender" name="gender" id="Other">Other                
+                <hr>
+
+                <label for="address"><b>Address: </b></label>
+                <input type="text" placeholder="Address" name="address" id="Address">                
+                
+                <label for="suburb"><b>Suburb: </b></label>
+                <select id='suburb' placeholder='Suburb' name='suburb' id='Suburb'>
+                    <option value="diepkloof">Diepkloof</option>
+                    <option value="orlando">Orlando</option>
+                    <option value="meadowlands">Meadowlands</option>
+                    <option value="diepkloof">Roodepoort</option>
+                    <option value="orlando">Sandton</option>
+                    <option value="meadowlands">Randburg</option>
+                </select>
+
+                <label for="city"><b>City: </b></label>
+                <select id='city' placeholder='City' name='city' id='City'>
+                    <option value="johannesburg">Johannesburg</option>
+                    <option value="pretoria">Pretoria</option>
+                    <option value="emalahleni">Emalahleni</option>
+                    <option value="vereeniging">Vereeniging</option>
+                    <option value="roodepoort">Roodepoort</option>
+                    <option value="durban">Durban</option>
+                </select>    
+
+                <label for="province"><b>Province: </b></label>
+                <select id='province' placeholder='Province' name='province' id='Province'>
+                    <option value="gp">Gauteng</option>
+                    <option value="kzn">KZN</option>
+                    <option value="lp">Limpopo</option>
+                    <option value="mp">Mpumalanga</option>
+                    <option value="nw">North West</option>
+                    <option value="nc">Northern Cape</option>
+                    <option value="ec">Eastern Cape</option>
+                    <option value="wc">Western Cape</option>
+                    <option value="fs">Free State</option>
+                </select>
+
+                <label for="country"><b>Country: </b></label>
+                <select id='country' placeholder='Country' name='country' id='Country'>
+                    <option value="za">South Africa</option>
+                    <option value="sd">Eswatini</option>
+                    <option value="ls">Lesotho</option>
+                    <option value="mz">Mozambique</option>
+                    <option value="zw">Zimbabwe</option>
+                    <option value="zm">Zambia</option>
+                    <option value="an">Angola</option>
+                    <option value="nm">Namibia</option>
+                    <option value="bs">Botswana</option>
+                    <option value="drc">Democratic Republic of Congo</option>
+                </select>
+
+                <hr>    
+                
+                
+                <!-- <label for="country">Country</label>
+                <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+                </select>
+                 -->
+                
+        <!-------------------------------------------------------------------------------------------------------->
+          <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+          <button type="submit" class="registerbtn">Register</button>
+        </div>
+      
+        <!-- <div class="container signin">
+          <p>Already have an account? <a href="#">Sign in</a>.</p>
+        </div> -->
+      </form>
+
+
+
+
+    </body>
+
+    <footer>
+        <p align='center'>(c)2020 by galaxer</p>
+    </footer>        
+
+</html>
